@@ -1,2 +1,2 @@
-# reserach_agent-kairon
+# Deep Reserach Agent
 Design a Deep Research AI Agentic System
