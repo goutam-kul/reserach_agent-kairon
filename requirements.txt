@@ -1,0 +1,8 @@
+tavily-python
+langgraph
+langchain
+langchain-core
+
+pydantic-settings
+redis 
+loguru
