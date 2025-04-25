@@ -21,7 +21,7 @@ This is a `langgraph` based Agentic system, consisting of 3 agents. A Redis cach
 **[Response](https://github.com/goutam-kul/reserach_agent-kairon/blob/main/messi_sample_report.md)**
 - **Query: Give a brief summary of Alpha Fold from Google DeepMind.**
 **[Response](https://github.com/goutam-kul/reserach_agent-kairon/blo/main/alphafold_sample_report.md)**
-- **Query: Give an In-depth report about Alpha fold **
+- **Query: Give an In-depth report about Alpha fold**
 **[Response](https://github.com/goutam-kul/reserach_agent-kairon/blob/main/In-depth_alphafold_sample.md)**
 
 # Setup & Usage
