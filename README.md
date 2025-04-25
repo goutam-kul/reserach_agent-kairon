@@ -1,14 +1,6 @@
 # Deep Reserach Agent
 A Deep Research AI Agentic System
 
-### Tech Stack 
-```
-Python 3.11+
-langchain
-langgraph
-redis
-pydantic
-```
 # Details 
 This is a `langgraph` based Agentic system, consisting of 3 agents - 
 
@@ -35,3 +27,13 @@ This is a `langgraph` based Agentic system, consisting of 3 agents -
   ```
 - Install Dependencies: Install the required dependency using `pip install -r requirements.txt`
 - Run the application: `python src/agent.py`
+
+
+#Tech Stack 
+```
+Python 3.11+
+langchain
+langgraph
+redis
+pydantic
+```
