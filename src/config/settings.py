@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Settings(BaseSettings):
-    LLM_MODEL: str = "gemini/gemini-2.0-flash-lite"
+    LLM_MODEL: str = "gemini-2.0-flash"
     GEMINI_API_KEY: str = os.getenv('GEMINI_API_KEY')
     TAVILY_API_KEY: str = os.getenv('TAVILY_API_KEY')
 

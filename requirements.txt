@@ -2,7 +2,8 @@ tavily-python
 langgraph
 langchain
 langchain-core
-
+langchain-community
+langchain-google-genai
 pydantic-settings
 redis 
 loguru
