@@ -16,6 +16,14 @@ This is a `langgraph` based Agentic system, consisting of 3 agents. A Redis cach
 3. **Drafter Agent** 
 - Drafter agent takes takes `search_results` from research agent as context and creates a readable markdown report.
 
+# Generated Results from Query
+- **Query: Who is Lionel Messi**
+**[Response](https://github.com/goutam-kul/reserach_agent-kairon/blob/main/messi_sample_report.md)**
+- **Query: Give a brief summary of Alpha Fold from Google DeepMind.**
+**[Response](https://github.com/goutam-kul/reserach_agent-kairon/blo/main/alphafold_sample_report.md)**
+- **Query: Give an In-depth report about Alpha fold **
+**[Response](https://github.com/goutam-kul/reserach_agent-kairon/blob/main/In-depth_alphafold_sample.md)**
+
 # Setup & Usage
 - Clone the repo: `git clone https://github.com/goutam-kul/reserach_agent-kairon.git`
 - Install Redis: Redis is a dependecy of the application. Please refer to this guide for redis installation [InstallRedis](https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/)
