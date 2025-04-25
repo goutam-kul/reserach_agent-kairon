@@ -25,4 +25,11 @@ This is a `langgraph` based Agentic system, consisting of 3 agents -
 - Drafter agent takes takes `search_results` from research agent as context and creates a readable markdown report.
 
 # Setup & Usage
-- Clone the repo: git clone
+- Clone the repo: `git clone https://github.com/goutam-kul/reserach_agent-kairon.git`
+- Install Redis: Redis is a dependecy of the application. Please refer to this guide for redis installation [InstallRedis](https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/)
+- Configure `.env` file:
+  - GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+  - TAVILY_API_KEY=YOUR_TAVILY_API_KEY
+  - REDIS_PASSWORD=YOUR_PASSWORD
+- Install Dependencies: Install the required dependency using `pip install -r requirements.txt`
+- Run the application: `python src/agent.py`
