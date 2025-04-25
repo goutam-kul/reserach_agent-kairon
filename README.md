@@ -1,7 +1,18 @@
 # Deep Reserach Agent
 A Deep Research AI Agentic System
 
-# Agents 
+### Tech Stack 
+```
+Python 3.11+
+langchain
+langgraph
+redis
+pydantic
+```
+# Details 
+This is a `langgraph` based Agentic system, consisting of 3 agents - 
+
+## Agents 
 1. **Planner Agent** 
 - Takes the initial user query and generates sub query using LLM call. 
 - The sub-queries provide more context while being closely aligned with the original query.
@@ -12,3 +23,6 @@ A Deep Research AI Agentic System
 
 3. **Drafter Agent** 
 - Drafter agent takes takes `search_results` from research agent as context and creates a readable markdown report.
+
+# Setup & Usage
+- Clone the repo: git clone
