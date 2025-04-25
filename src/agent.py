@@ -20,7 +20,7 @@ app = workflow.compile()
 
 # --- Testing ----
 if __name__ == "__main__":
-    query = "Create an in depth report on Alpha fold from Google DeepMind"
+    query = input("Enter your query: ")
     initial_state = {"initial_query": query}
     
     logger.info(f"Starting Research")
@@ -28,7 +28,7 @@ if __name__ == "__main__":
 
     print("\n--- Final State ---")
     import pprint
-    pprint.pprint(final_state)
+    # pprint.pprint(final_state)
 
     if final_state.get('error'):
         print("\n--- ERROR ---")
@@ -38,3 +38,8 @@ if __name__ == "__main__":
         print(final_state['final_answer'])
     else:
         print("\n--- No final answer or error produced ---")
+
+    output_filename = input("Enter a name for markdown file to save: ")
+    # Save report as markdown
+    with open(output_filename, 'w', encoding='utf-8') as file:
+        file.write(final_state['final_answer'])
