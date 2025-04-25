@@ -2,7 +2,7 @@
 A Deep Research AI Agentic System
 
 # Details 
-This is a `langgraph` based Agentic system, consisting of 3 agents - 
+This is a `langgraph` based Agentic system, consisting of 3 agents. A Redis caching system is introduced to cache the Tavily search response. To save tavily credits. Whenever a new response is generated using Tavily API the reponse is stored inside redis database with a unique key. Whenever tavily tool is called by the agent, we first search the key in redis database, if the key exists we query the results from redis. 
 
 ## Agents 
 1. **Planner Agent** 
@@ -29,7 +29,7 @@ This is a `langgraph` based Agentic system, consisting of 3 agents -
 - Run the application: `python src/agent.py`
 
 
-#Tech Stack 
+# Tech Stack 
 ```
 Python 3.11+
 langchain
